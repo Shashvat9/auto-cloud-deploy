@@ -1,0 +1,4 @@
+data-acquisition/temp_repos/*
+data-acquisition/dataset/*
+data-acquisition/config.py
+data-acquisition/__pycache__/
