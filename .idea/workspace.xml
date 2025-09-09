@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af02d89-63bb-4be9-b79d-d7cd26c3ca34" name="Changes" comment="" />
+    <list default="true" id="9af02d89-63bb-4be9-b79d-d7cd26c3ca34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data-acquisition/tf_to_xml_converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-acquisition/temp_repos/terraform-aws-modules_terraform-aws-lambda/examples/fixtures/nodejs14.x-app2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/data-acquisition/temp_repos/terraform-aws-modules_terraform-aws-lambda/examples/fixtures/nodejs14.x-app2/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/data acquisition/temp_repos/FairwindsOps_terraform-vpc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="32Qd9qWKLG9m1bdTv4qRkJXOpZD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,8 +39,9 @@
     "Python.main_pipeline.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "P:/auto-cloud-deploy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757356582138</updated>
       <workItem from="1757356585273" duration="4079000" />
+      <workItem from="1757365079704" duration="1770000" />
     </task>
     <servers />
   </component>
