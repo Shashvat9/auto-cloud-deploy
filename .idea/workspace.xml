@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af02d89-63bb-4be9-b79d-d7cd26c3ca34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data-acquisition/unify_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/auto-cloud-deploy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/auto-cloud-deploy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-acquisition/dataset.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data-acquisition/dataset.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-acquisition/temp_repos/terraform-aws-modules_terraform-aws-lambda/examples/fixtures/nodejs14.x-app2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/data-acquisition/temp_repos/terraform-aws-modules_terraform-aws-lambda/examples/fixtures/nodejs14.x-app2/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,21 +35,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Shashvat9"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shashvat9&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/FairwindsOps/terraform-vpc.git",
-    "accountId": "1d48c315-fab3-4e33-ab7c-4af362dd7fe5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FairwindsOps/terraform-vpc.git&quot;,
+    &quot;accountId&quot;: &quot;1d48c315-fab3-4e33-ab7c-4af362dd7fe5&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/data-acquisition/unify_dataset.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.2.0\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -52,21 +64,32 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main_pipeline.executor": "Run",
     "Python.unify_dataset.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Unnamed.executor": "Run",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-23",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "P:/auto-cloud-deploy",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "P:/auto-cloud-deploy/APIs/tests/xmlTOJson",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.21679688",
+    "project.structure.side.proportion": "0.6175",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.unify_dataset">
+  <component name="RunManager" selected="Spring Boot.Unnamed">
     <configuration name="main_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto cloud deploy" />
       <option name="ENV_FILES" value="" />
@@ -113,6 +136,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="xmlTOJson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.autoclouddeploy.xmltojson.XmlToJsonApplication" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_pipeline" />
+      <item itemvalue="Python.unify_dataset" />
+      <item itemvalue="Spring Boot.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.unify_dataset" />
@@ -123,11 +165,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9af02d89-63bb-4be9-b79d-d7cd26c3ca34" name="Changes" comment="" />
@@ -136,7 +179,8 @@
       <option name="presentableId" value="Default" />
       <updated>1757356582138</updated>
       <workItem from="1757356585273" duration="4079000" />
-      <workItem from="1757365079704" duration="5757000" />
+      <workItem from="1757365079704" duration="6109000" />
+      <workItem from="1760722509054" duration="5267000" />
     </task>
     <servers />
   </component>
