@@ -15,7 +15,7 @@ class TerraformInput(BaseModel):
     terraform: str
 
 
-# Dynamically load the tf_to_xml_converter from the repo's data-acquisition directory
+
 TF_CONVERTER_PATH = Path(__file__).resolve().parent.parent / "data-acquisition" / "tf_to_xml_converter.py"
 tf_converter = None
 if TF_CONVERTER_PATH.exists():
@@ -64,11 +64,9 @@ def run_terraform(data: TerraformInput, timeout_seconds: Optional[int] = 120):
     tf_file = os.path.join(tmpdir, "main.tf")
 
     try:
-        # Write Terraform code
         with open(tf_file, "w", encoding="utf-8") as f:
             f.write(data.terraform)
-
-        # Dockerized Terraform execution (init + apply)
+            
         cmd = [
             "docker", "run", "--rm",
             "--net", "none",
@@ -102,7 +100,6 @@ def run_terraform(data: TerraformInput, timeout_seconds: Optional[int] = 120):
 
 
 if __name__ == "__main__":
-    # Lightweight local runner for development
     import uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
